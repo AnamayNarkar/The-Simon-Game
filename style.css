@@ -27,8 +27,8 @@ body{
 
 @media only screen and (max-width: 576px) {
     .outer-circle {
-        height: 50vh;
-        width: 50vh;
+        height: 90vw;
+        width: 90vw;
     }
 }
 
