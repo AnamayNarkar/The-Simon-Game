@@ -55,7 +55,7 @@ function updateHighScore(currentScore) {
 }
 
 function getUserAnswer() {
-    return new Promise(function(resolve, reject) {
+    return new Promise(resolve => {
         $(".colors").on('click', function(){
             if ($(this).hasClass("green")) 
             {
